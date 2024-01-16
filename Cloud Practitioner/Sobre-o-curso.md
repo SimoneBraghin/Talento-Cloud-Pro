@@ -1,0 +1,1 @@
+# Arquivo sobre curso de Cloud Practitioner

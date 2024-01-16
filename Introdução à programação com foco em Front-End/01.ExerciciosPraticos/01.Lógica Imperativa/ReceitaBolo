@@ -1,0 +1,49 @@
+# **INSTRUÇÕES**
+
+Instruções do projeto
+Pedro foi ao supermercado e comprou ovos, leite, farinha, açúcar, manteiga e achocolatado em pó para fazer um bolo de chocolate. Como ele nunca fez um bolo antes, ele está bastante confuso e perdido. Auxilie Pedro construindo uma sequência lógica dos passos necessários para a preparação desse bolo. 
+
+"SEQUÊNCIA LÓGICA - SEM USO DE CÓDIGO!"
+===========================================================================
+
+## EXECUÇÃO DA ATIVIDADE
+
+### **Receita de Bolo de Chocolate**
+
+#### *Utensílios:*
+- recipiente == recipiente
+- fouet == fouet
+- forno == forno
+- forma == forma
+- luvaDeForno == luva
+- gradeDeSecagem == grade
+
+#### *Ingredientes:*
+- farinha = 300g
+- acucar = 200g
+- acucarForma = 20g
+- ovos = 6un
+- leite = 200g
+- manteiga = 30g
+- manteigaForma = 10g
+- achocolatadoEmPo = 30g
+- fermentoQuimico = 5g
+
+#### *Modo de Fazer:*
+0. Pré-aqueça o forno a 240ºC por 20min (subrotina de aquecimento - outro passo a passo)
+1. Unte uma forma com {manteigaForma} e {àcucarForma} (subrotina de untagem de forma - outro passo a passo)
+2. Pese todos os ingredientes e os separe em recipentes distintos 
+3. Em um recipiente adicione os {ovos} e o {açúcar}. Mexa-os com auxílio de um Fouet até a mistura ficar com a consistência de um creme homogêneo
+4. Adicione o {leite} na mistura do passo #3, mexa com o {fouet} até ficar homogêneo
+5. Adicione o {achocolatadoEmPo} e a {manteiga} na mistura do passo #3 e mexa com o fouet até homogeneizar
+6. Adicione a {farinha} na mistura do passo #3 e mexa até homogeneizar
+7. Adicione o {fermentoQuimico} na mistura do passo #3 e mexa até homogeneizar
+6. Transfira a {massaBolo} para a {forma} (subrotina de transferência - outro passo a passo)
+7. Insira a {forma} no {forno} (subrotina de assamento - outro passo a passo)
+8. Aguarde 30 minutos e cheque se a {massaBolo} está assada (subrotina de checagem - outro passo a passo)
+9. Se {massaBolo} estiver assada então retire a {forma} utilizando as mãos equipadas com uma {luva} (subrotina de colocar a luva - outro passo a passo), se não então aguarde mais 10 minutos
+10. Se aguardou 10 minutos, repita o processo de checagem #9 até retirada da {massaBolo}
+11. Coloque a {forma} ainda com a {massaBolo} em cima de uma {grade} e espere esfriar (subrotina de esfriamento - laço de repetição em outro passo a passo)
+12. Com a {massaBolo} fria, retire-a da {forma} (subrotina de retirada do bolo da forma)
+
+>Seu Bolo está pronto para ser servido!!!
