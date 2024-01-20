@@ -30,14 +30,14 @@ _______________
 - git config --global user.name Fulano de Tal
 - git config --global user.email fulanodetal@exemplo.br  
 
-- git config --list  
-*Testando as configurações. conforme exemplo do usuário acima, saída será igual abaixo:*  
-    user.name = Fulano de Tal  
-    user.email = fulanodetal@exemplo.br  
-    color.status = auto  
-    color.branch = auto  
-    color.interactive = auto  
-    color.diff = auto
+  - git config --list  
+  *Testando as configurações. conforme exemplo do usuário acima, saída será igual abaixo:*  
+      user.name = Fulano de Tal  
+      user.email = fulanodetal@exemplo.br  
+      color.status = auto  
+      color.branch = auto  
+      color.interactive = auto  
+      color.diff = auto
 
 ### Clonando repositório
 - git clone  link-do-repositorio
@@ -60,23 +60,20 @@ _______________
 
 
 ### Atualizar repositório local
-|Comando                  | Função                                                                              |
+|Comando                  | Opções / Argumentosunção                                                                              |
 |----                     |                       -----------------------------                                 |
 | git remote show origin  | *Verifica se nosso repositório local está atualizado com o repositório remoto*      |
 | git pull                | *Atualiza nosso repositório local com as últimas informações no repositório remoto* |
 
 
 #### Como atualizar um repositório forcado (forked) com o rebase:
-- git remote add upstream link-do-github  
-*Adiciona o repositório remoto (repositório original que foi forcado)*
-- git fetch upstream  
-*Busca (fetch) todas as ramificações do fluxo ascentende (upstream) remoto*
-- git rebase upstream/master  
-*Reescreve suas master com o fluxo ascendente (upstream) da master git rebase*
-- git push --set-upstream origin nome-da-branch  
-*Empurra as atualizações para a **para branch***
-- git push origin master --force  
-*Empurra as atualizações **para a master** de forma forçada*
+| Comando                    | Opções / Argumentos             | Função                                       |
+| -----                      |                   ------------  |                         -----------          |
+| git remote add upstream    | link-do-github                  | *Adiciona o repositório remoto (repositório original que foi forcado)* |
+| git fetch upstream         |                                 | *Busca (fetch) todas as ramificações do fluxo ascentende (upstream) remoto* |
+| git rebase upstream        | /master                         | *Reescreve suas master com o fluxo ascendente (upstream) da master git rebase* |
+| git push --set-upstream    | origin nome-da-branch           |  *Empurra as atualizações para a **para branch***|
+| git push origin            | master --force                  | *Empurra as atualizações **para a master** de forma forçada* |
 
 ### Log
 - git log  
@@ -98,12 +95,14 @@ _______________
 
 
 ### Comandos de Branches
-| Comando      | Opções / Argumentos | Função                                                         |
-|-----         | -----               | -----                                                          |
-| git branch   |                     | Exibe a lista de branches disponíveis e destaca a branch atual |
-| git branch   | nome-da-branch      | Cria uma nova branch                                           | 
-| git checkout | nome-da-branch      | Troca o HEAD, ou ponteiro, para a branch indicada              |
-| git checkout | -b nome-da-branch   | Cria e muda para uma nova branch em um único comando           |
+| Comando         | Opções / Argumentos | Função                                                         |
+|-----            | -----               | -----                                                          |
+| git branch      |                     | Exibe a lista de branches disponíveis e destaca a branch atual |
+| git branch      | nome-branch         | Cria uma nova branch                                           | 
+| git checkout    | nome-branch         | Troca o HEAD, ou ponteiro, para a branch indicada              |
+| git checkout    | -b nome-branch      | Cria e muda para uma nova branch em um único comando           |
+| git branch      | -d nome-branch      | Excluir um branch no local                                     |
+| git push origin | --delete nome-branch| Excluir um branch remoto                                       
 
 
 ### Comandos para Merge
