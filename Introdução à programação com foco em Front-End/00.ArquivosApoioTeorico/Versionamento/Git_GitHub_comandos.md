@@ -60,7 +60,7 @@ _______________
 
 
 ### Atualizar repositório local
-|Comando                  | Opções / Argumentosunção                                                                              |
+|Comando                  | Função                                                                              |  
 |----                     |                       -----------------------------                                 |
 | git remote show origin  | *Verifica se nosso repositório local está atualizado com o repositório remoto*      |
 | git pull                | *Atualiza nosso repositório local com as últimas informações no repositório remoto* |
