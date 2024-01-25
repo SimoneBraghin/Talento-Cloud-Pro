@@ -63,7 +63,7 @@ _______________
 |Comando                  | Função                                                                              |  
 |----                     |                       -----------------------------                                 |
 | git remote show origin  | *Verifica se nosso repositório local está atualizado com o repositório remoto*      |
-| git pull                | *Atualiza nosso repositório local com as últimas informações no repositório remoto* |
+| git pull                | *Atualiza nosso repositório local com as últimas informações no repositório remoto* *Importante observar que atualiza o local com o remoto da respectiva branch apenas* |
 
 
 #### Como atualizar um repositório forcado (forked) com o rebase:
@@ -197,17 +197,17 @@ ______________________
 
 - [JUSTEN, Willian. 06. Configurando o Git - Git e Github para Iniciantes](https://www.youtube.com/watch?v=QF0Cdd8ApRk&ab_channel=WillianJusten) Acesso em 18 de out. de 2022
 
-- LinnuxConfig.Org - Linux commands cheat sheet. Disponível em: https://linuxconfig.org/linux-commands-cheat-sheet. Acesso em 18 de out. de 2022
+- [LinnuxConfig.Org - Linux commands cheat sheet](https://linuxconfig.org/linux-commands-cheat-sheet). Acesso em 18 de out. de 2022
 
-- Atlassian Bitbucket. What is version control?. Disponível em: https://www.atlassian.com/git/tutorials/what-is-version-control. Acesso em 19 de out. de 2022
+- [Atlassian Bitbucket. What is version control?](https://www.atlassian.com/git/tutorials/)what-is-version-control. Acesso em 19 de out. de 2022
 
-- Receitas de Código. Git - O que é uma branch. Disponível em: https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch. Acesso em 20 de out. de 2022
+- [Receitas de Código. Git - O que é uma branch](https://receitasdecodigo.com.br/devops/git-o-que-e-um-branch) Acesso em 20 de out. de 2022
 
-- Documentação oficial do Git. Disponível em: https://git-scm.com/docs/git. Acesso em 20 de out. de 2022
+- [Documentação oficial do Git](https://git-scm.com/docs/git). Acesso em 20 de out. de 2022
 
-- Tutoriais WoMakersCode. Disponível em: https://dev.to/womakerscode. Acesso em: 14 de jan. de 2024.
-  https://dev.to/womakerscode/tutorial-git-fork-como-colaborar-com-projetos-de-codigo-aberto-1lkm
+- [Tutoriais WoMakersCode](https://dev.to/womakerscode) Acesso em: 14 de jan. de 2024.
+  [Elaborar Fork](https://dev.to/womakerscode/tutorial-git-fork-como-colaborar-com-projetos-de-codigo-aberto-1lkm)
 
-  https://dev.to/womakerscode/tutorial-git-copiando-um-repositorio-existente-git-clone-1bfe
+  [Git Clone](https://dev.to/womakerscode/tutorial-git-copiando-um-repositorio-existente-git-clone-1bfe)
 
-  https://dev.to/womakerscode/tutorial-git-verificando-commits-remotos-56f3
+  [Verificar Commits Remotos](https://dev.to/womakerscode/tutorial-git-verificando-commits-remotos-56f3)
