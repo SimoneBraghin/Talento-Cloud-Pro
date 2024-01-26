@@ -1,4 +1,4 @@
-# SINTAXE BUILT-IN
+# SINTAXE Listas, Arrays, Tuplas, Conjuntos e Dicionários
 ## Sintaxe das quatro built-in data types em Python: (1) Listas, (2) Tuplas, (3) Conjuntos e (4) Dicionários
 ________________________________________________________
 ### LISTAS
