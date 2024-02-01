@@ -9,15 +9,8 @@ Aqui iremos expor os mais comuns e usados.
 _______________
 
 ## Git estágios 
-| Working Directory | Stage Area      | Local Repository | Remote Repository |
-|   -----           |  -----          |  -----           |              -----| 
-| *Local*           |    *Local*      |          *Local* |          *Remote* |
-|                   |                 |         x        | *<-- Git Pull*    |
-|  Git Add -->      |           x     |                  |                   |
-|                   |  Git Commit --> |       x          |                   |
-|    x <------------|-----------------|---- Git Checkout |                   |
-|    x <------------|-----------------|---- Git Merge    |                   |
-|                   |                 |     Git Push --> |        x          |
+
+![Estágios Git](/Introdução%20à%20programação%20com%20foco%20em%20Front-End/00.ArquivosApoioTeorico/Versionamento/Imagens/GitFlow.png)
 
     
 
@@ -208,6 +201,6 @@ ______________________
 - [Tutoriais WoMakersCode](https://dev.to/womakerscode) Acesso em: 14 de jan. de 2024.
   [Elaborar Fork](https://dev.to/womakerscode/tutorial-git-fork-como-colaborar-com-projetos-de-codigo-aberto-1lkm)
 
-  [Git Clone](https://dev.to/womakerscode/tutorial-git-copiando-um-repositorio-existente-git-clone-1bfe)
+- [Git Clone](https://dev.to/womakerscode/tutorial-git-copiando-um-repositorio-existente-git-clone-1bfe)
 
-  [Verificar Commits Remotos](https://dev.to/womakerscode/tutorial-git-verificando-commits-remotos-56f3)
+- [Verificar Commits Remotos](https://dev.to/womakerscode/tutorial-git-verificando-commits-remotos-56f3)
