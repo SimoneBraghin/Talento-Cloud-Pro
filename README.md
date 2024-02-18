@@ -31,17 +31,6 @@ A carga horária do curso prevista é de 300 horas, com duração de 4 meses. Di
 Cada Projeto corresponde a atividade proposta no curso e na forma como a autora do repositório desenvolveu os códigos para cumprir com os requisitos do mesmo.
 
 ### Introdução à programação com foco em Front-End
-#### 00. Arquivos Apoio Teórico
-
-*Consiste em um conjunto de pastas de arquivos de texto e imagéticos que possuem a função de auxílio e apoio geral para a compreensão dos processos pedagógicos de maneira mais assertiva:*
-
-- Versionamento (Git e GitHub)
-- HTML e CSS
-- Lógica Imperativa
-- Programação em Python: Comparativo de laços de repetição Portugol versus Python, Comparativo de sintaxe Python versus Portugol, Laços de repetição, Sintaxes (diversas)
-- Programação em JavaScript
-- Banco de Dados
-- *Entre outros...*
 
 #### 01. Exercícios Práticos
 Conjunto de pastas relativas aos blocos de aulas e suas atividades práticas, assíncronas e síncronas.  
@@ -85,7 +74,7 @@ Demais atividades - individuais - estão contidas nas pastas relativas a cada bl
 - Git
 - GitHub
 
-##### HTML/CSS
+##### 04. HTML/CSS
 *Tópicos:*
 - O que é HTML
 - Principais tags: teoria e prática
